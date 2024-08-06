@@ -1,0 +1,39 @@
+.artworkform{
+    border: 2px dashed purple;
+    padding: 12px 20px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.artworkremovebtn{
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient(rgba(213, 32, 207, 0.597),rgb(249, 250, 250));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.artworkaddbtn{
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient(purple,white);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.artworkaddbtn:hover{
+    scale:1.1;
+}
+.artworkinput{
+    border-radius: 10px;
+    height: 35px;
+    border: none;
+}

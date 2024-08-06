@@ -1,0 +1,86 @@
+/* body{ */
+    /* background-color: #f1bfec; */
+/* } */
+.adminloginsect{
+    background-image: url('../Assets/purplebg.jpg');   
+            background-size: cover;
+            margin-top: 200px;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            /* border: 1px solid #40094e; */
+            height: 700px;
+            margin-bottom: 100px;
+}
+
+.forgotpwd{
+    color: #560b6f;
+}
+.groupbtn1{
+   
+    font-family: fantasy;
+    font-size: 30px;
+
+}
+.adminlogincard{
+    background:white ;
+    box-shadow: #a45da6;
+}
+
+.groupbtn2 a{
+    font-family: fantasy;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+/* .groupbtn2 a:hover{
+  color:rgba(0, 0, 0, 0.437);
+}
+.groupbtn1:link, .groupbtn1:visited{
+    text-decoration: none;
+    
+    text-align: center;
+    color: black;
+    display: inline-block;
+}
+.groupbtn2:link, .groupbtn2:visited{
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+    color: black;
+    display: inline-block;
+} */
+.adminloginbutton{
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+    /* transition-duration: 0.4s; */
+    height: 50px;
+    margin-left: 200px;
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
+    border: 1.5px dashed #40094e ;
+    border-radius: 35px;
+    color: #570b7a;
+    font-weight: bold;
+}
+.adminloginbutton:hover{
+    border:1.5px dashed black;
+    color:rgb(185, 59, 185);
+}
+.adminlogin{
+    /* border: #40094e 4px dashed; */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgb(70, 5, 70) 6px 3px 5px 4px;
+    /* background-image: linear-gradient(rgb(94, 6, 94),rgb(246, 99, 246)); */
+    background-color: transparent;
+}
+.adminloginheading{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+    
+}

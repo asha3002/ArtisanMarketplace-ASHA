@@ -1,0 +1,161 @@
+
+   /* Base styles */
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+    text-decoration: none;
+    color:#4b0082;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #800080;
+  }
+  
+  .profile-container {
+    position: relative;
+  }
+  
+  .loginprofileimg {
+    position: relative;
+  }
+  
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .dropdown-item {
+    color: #4b0082; /* Dark purple for dropdown text */
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e6e6fa; /* Light purple for hover effect */
+  }
+  
+  .dropdown-menu.show {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  /* Hide navbar-toggler by default */
+  .navbar-toggler {
+    display: none;
+    border: none;
+    background-color: #4b0082; /* Purple background */
+    color: white; /* White text */
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+
+.navbar-toggler:hover {
+    background-color: #800080; /* Darker purple on hover */
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 768px) {
+    .nav-items {
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: white;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      display: none;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      border-top: 2px solid #4b0082; /* Purple border top */
+    }
+  
+    .nav-items.active {
+      display: block;
+      max-height: 500px; /* Adjust this value as needed */
+    }
+  
+    .nav-item {
+      background-color: #f8f9fa;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px 20px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+  
+    .profile-container {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+  
+    .profile-img {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .nav-link {
+      font-size: 14px;
+      padding: 10px 0;
+      width: 100%;
+      text-align: left;
+    }
+  
+    .navbar-toggler {
+      display: inline-block; /* Show the toggle button only on small screens */
+    }
+  
+    .navbar-brand {
+      flex-grow: 1;
+    }
+  }
+  
+  /* Further adjustments for screens smaller than 480px */
+  @media (max-width: 480px) {
+    .nav-link {
+      font-size: 12px;
+      padding: 8px 0;
+    }
+  
+    .profile-img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .dropdown-menu.show {
+      width: 100%;
+      box-shadow: none;
+      border: none;
+      position: static;
+    }
+  }
+  
+
+
+
+
+
+
+  

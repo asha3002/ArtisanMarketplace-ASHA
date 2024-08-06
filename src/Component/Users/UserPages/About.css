@@ -1,0 +1,98 @@
+
+#aboutcard{
+  /* background-color:rgb(236, 153, 236) ; */
+  display: flex;
+  flex:wrap;
+}
+#col1about {
+    width: 100%;
+  }
+  
+  .aboutimage {
+    border-radius: 50%;
+    margin-top: 7%;
+    height: 200px;
+    width: 150px;
+    box-shadow: 6px 15px 15px 5px;
+    justify-content: left;
+    text-align: left;
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-200%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .aboutimage:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  
+  .aboutparagraph {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 50px;
+  }
+  
+  #col2about {
+    width: 100%;
+    animation: moveRightToLeft 1s;
+  }
+  
+  @keyframes moveRightToLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .about-container {
+    margin-top: 95px;
+    overflow: hidden;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 0 20px;
+    }
+  
+    .aboutimage {
+      height: 150px;
+      width: 150px;
+      margin-top: 5%;
+    }
+  
+    .aboutparagraph {
+      font-size: 18px;
+      text-indent: 30px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .aboutimage {
+      height: 120px;
+      width: 120px;
+    }
+  
+    .aboutparagraph {
+      font-size: 16px;
+      text-indent: 20px;
+    }
+  
+    #col2about {
+      padding-top: 20px;
+    }
+  }
+  

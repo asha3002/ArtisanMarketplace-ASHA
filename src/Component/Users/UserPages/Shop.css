@@ -1,0 +1,41 @@
+.shopbtn{
+    background-color: transparent;
+   
+
+display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-image:linear-gradient(purple,white); /* Example button color */
+    color: black;
+    font-weight: bold;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.507);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px dashed black ;
+}
+.shopbtn:hover{
+    background-color: transparent;
+    color: black;
+}
+.shopcontainer{
+    /* width: 500px;
+    height: 200px; */
+    align-items: center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    
+    height: 50vh;
+}
+.Userprofilehomeimage1{
+    background-image: url("../../Assets/bg22.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
